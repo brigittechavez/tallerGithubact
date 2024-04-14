@@ -1,5 +1,5 @@
-const sum = require('./sum');
+const Sum = require('./Sum');
 
 test('sums two numbers', () => {
-  expect(sum(1, 2)).toBe(3);
+  expect(Sum(1, 2)).toBe(3);
 });
